@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": false,
+      "target": "es6",
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "sourceRoot": "src",
+      "sourceMap": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true
+  },
+  "include": [
+      "src/**/*", "custom.d.ts"
+  ],
+  "exclude": [
+      "src/tests"
+  ],
+}
